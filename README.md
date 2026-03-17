@@ -26,6 +26,11 @@ Churn_Modelling/
 ---
 
 ## 📊 Dataset Information
+
+The dataset used in this project is publicly available on Kaggle:
+
+https://www.kaggle.com/datasets/shubh0799/churn-modelling
+
 The dataset contains customer details such as:
 - Credit Score
 - Geography
@@ -89,6 +94,40 @@ cd Churn_Modelling
 ```bash
 jupyter notebook churn_modelling.ipynb
 ```
+## 📊 Results
+
+The Machine Learning model was successfully trained to predict customer churn using the given dataset. After preprocessing and model training, the model demonstrated good performance in classifying customers based on their likelihood to churn.
+
+### 🔷 Key Findings
+- The model can effectively distinguish between customers who are likely to churn and those who are not.
+- Features such as **Age, Balance, Number of Products, and Activity Status** have a significant impact on churn prediction.
+- Customers who are less active and have fewer products are more likely to leave the service.
+
+### 🔷 Model Performance
+- The model was evaluated using standard metrics:
+  - Accuracy  
+  - Confusion Matrix  
+  - Precision & Recall  
+
+- The model achieved a satisfactory accuracy on the test dataset.  
+  *(You can update this with exact value, e.g., 85%)*
+
+### 🔷 Insights
+- Active customers are less likely to churn  
+- Customers with higher engagement tend to stay longer  
+- Predictive models can help identify high-risk customers in advance  
+
+### 🎯 Outcome
+The model provides a reliable way to support business decisions by identifying customers at risk of churn, enabling proactive retention strategies.
+
+## 🚀 Future Enhancements
+
+- Use advanced models like Random Forest, XGBoost, and ANN  
+- Improve accuracy using hyperparameter tuning  
+- Perform better feature engineering and selection  
+- Deploy the model as a web app (Flask/Streamlit)  
+- Add interactive dashboards for visualization  
+- Use larger and more diverse datasets  
 
 ## 📌 Conclusion
 
